@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "139509263-blue-line-trash-can-icon-isolated-on-blue-background-garbage-bin-sign-recycle-basket-icon-office-tra copy.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

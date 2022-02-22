@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E467C18127C44B14000979AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */; };
 		E4AE8E2F27BAF38200E5E4C8 /* WesternAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE8E2E27BAF38200E5E4C8 /* WesternAIApp.swift */; };
-		E4AE8E3127BAF38200E5E4C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */; };
 		E4AE8E3327BAF38800E5E4C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AE8E3227BAF38800E5E4C8 /* Assets.xcassets */; };
 		E4AE8E3627BAF38800E5E4C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AE8E3527BAF38800E5E4C8 /* Preview Assets.xcassets */; };
 		E4AE8E4027BAF38900E5E4C8 /* WesternAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE8E3F27BAF38900E5E4C8 /* WesternAITests.swift */; };
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AE8E3127BAF38200E5E4C8 /* ContentView.swift in Sources */,
+				E467C18127C44B14000979AD /* ContentView.swift in Sources */,
 				E4AE8E2F27BAF38200E5E4C8 /* WesternAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
