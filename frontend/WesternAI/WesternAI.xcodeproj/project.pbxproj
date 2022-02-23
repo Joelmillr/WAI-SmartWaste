@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E484AD4127C6E799001A05C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E4AE8E2B27BAF38200E5E4C8 /* WesternAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WesternAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AE8E2E27BAF38200E5E4C8 /* WesternAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternAIApp.swift; sourceTree = "<group>"; };
 		E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		E4AE8E2D27BAF38200E5E4C8 /* WesternAI */ = {
 			isa = PBXGroup;
 			children = (
+				E484AD4127C6E799001A05C6 /* Info.plist */,
 				E4AE8E2E27BAF38200E5E4C8 /* WesternAIApp.swift */,
 				E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */,
 				E4AE8E3227BAF38800E5E4C8 /* Assets.xcassets */,
@@ -422,6 +424,9 @@
 				DEVELOPMENT_TEAM = TN33M8M5XV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WesternAI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(WesternAI) Need Camera Access to scan garbage item in order to distinguish what kind of garbage item it is";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "WesternAI if user wants to scan a photo he took before";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +456,9 @@
 				DEVELOPMENT_TEAM = TN33M8M5XV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WesternAI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(WesternAI) Need Camera Access to scan garbage item in order to distinguish what kind of garbage item it is";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "WesternAI if user wants to scan a photo he took before";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
