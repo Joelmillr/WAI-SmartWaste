@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E467C18127C44B14000979AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */; };
+		E484AD4927C70505001A05C6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AD4827C70505001A05C6 /* ImagePicker.swift */; };
+		E484AD4B27C7116B001A05C6 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AD4A27C7116B001A05C6 /* CameraPicker.swift */; };
 		E4AE8E2F27BAF38200E5E4C8 /* WesternAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE8E2E27BAF38200E5E4C8 /* WesternAIApp.swift */; };
 		E4AE8E3327BAF38800E5E4C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AE8E3227BAF38800E5E4C8 /* Assets.xcassets */; };
 		E4AE8E3627BAF38800E5E4C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AE8E3527BAF38800E5E4C8 /* Preview Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		E484AD4127C6E799001A05C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E484AD4827C70505001A05C6 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E484AD4A27C7116B001A05C6 /* CameraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
 		E4AE8E2B27BAF38200E5E4C8 /* WesternAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WesternAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AE8E2E27BAF38200E5E4C8 /* WesternAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternAIApp.swift; sourceTree = "<group>"; };
 		E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 		E4AE8E2D27BAF38200E5E4C8 /* WesternAI */ = {
 			isa = PBXGroup;
 			children = (
+				E484AD4A27C7116B001A05C6 /* CameraPicker.swift */,
+				E484AD4827C70505001A05C6 /* ImagePicker.swift */,
 				E484AD4127C6E799001A05C6 /* Info.plist */,
 				E4AE8E2E27BAF38200E5E4C8 /* WesternAIApp.swift */,
 				E4AE8E3027BAF38200E5E4C8 /* ContentView.swift */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E484AD4B27C7116B001A05C6 /* CameraPicker.swift in Sources */,
+				E484AD4927C70505001A05C6 /* ImagePicker.swift in Sources */,
 				E467C18127C44B14000979AD /* ContentView.swift in Sources */,
 				E4AE8E2F27BAF38200E5E4C8 /* WesternAIApp.swift in Sources */,
 			);
