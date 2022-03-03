@@ -1,8 +1,4 @@
-import flask
 import io
-import string
-import time
-import os
 import numpy as np
 import tensorflow as tf
 from PIL import Image
@@ -12,7 +8,8 @@ from keras.preprocessing import image
 
 model = tf.keras.models.load_model('WesternAIModel.h5')
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 
 def prepare_image(img):
     BOX = Image.open(io.BytesIO(img))
@@ -31,6 +28,7 @@ def predict_results(file):
 @app.route('/predict', methods=['POST'])
 def infer_image():
 
+    print(request.get_data())
     # Catch the image file from a POST request
     if 'file' not in request.files:
         return "Please try again. The Image doesn't exist"
@@ -51,4 +49,6 @@ def index():
     return 'Test'
 
 if __name__ == '__main__':
+    # uncomment when running localy 
     app.run(debug=True, host='0.0.0.0')
+    #app.run()
